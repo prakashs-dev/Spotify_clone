@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: linear-gradient(#90AEA7, #000000) !important;
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 40px; */
+}
+
+.sidebar {
+    width: 330px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.txt {
+    color: lightgray;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.playlist>img {
+    width: 38px;
+    height: 38px;
+    margin-left: 12px;
+    background-color: white;
+}
+
+.liked-songs>img {
+    width: 61px;
+    height: 61px;
+    border-radius: 1px
+}
+
+.album {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#heading {
+    width: 407px;
+    font-weight: 700;
+}
+
+.logos {
+    margin-left: 40px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 14.5%;
+    background-color: #000000;
+
+}
+
+.foot {
+    margin-top: 20px;
+}

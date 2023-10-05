@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #000000da;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.sidebar {
+    width: 330px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.logo {
+    width: 190px;
+    height: 60px;
+}
+
+.home {
+    background-color: #282828;
+    border-radius: 5px;
+    width: 95%;
+    height: 50px;
+}
+
+.playlist>img {
+    width: 38px;
+    height: 38px;
+    margin-left: 12px;
+    background-color: white;
+}
+
+.liked-songs>img {
+    width: 61px;
+    height: 61px;
+    border-radius: 1px
+}
+
+.podcast>img {
+    width: 38px;
+    height: 38px;
+    margin-left: 12px;
+    background-color: #004638;
+}
+
+.main-bar {
+    width: 100%;
+}
+
+.box {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    background-color: #303030;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box-m {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box>img {
+    width: 80px;
+}
+
+.card {
+    width: 200px;
+    height: 260px;
+    background-color: #181818 !important;
+    border-radius: 20px;
+}
+
+.card>img {
+    margin: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 14.5%;
+    background-color: #000000;
+}
+
+.center-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fav-cat {
+    margin-top: 100%;
+    padding-left: 10px;
+}
+
+.linked{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    .sidebar {
+        display: none !important;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .right-foot {
+        display: none !important;
+    }
+
+    .left-foot {
+        width: auto;
+    }
+
+    .center-foot {
+        width: auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .foot{
+        margin-top: 42px;
+    }
+}
+
