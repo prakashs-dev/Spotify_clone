@@ -5,10 +5,9 @@ body {
 }
 
 main {
-    background-image: linear-gradient(#90AEA7, #000000) !important;
+    background: linear-gradient(180deg, #90AEA7 0%, #000000 89.7%);
     width: 100%;
     height: 100%;
-    /* margin-bottom: 40px; */
 }
 
 .sidebar {
