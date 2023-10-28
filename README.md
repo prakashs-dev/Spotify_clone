@@ -1,2 +1,2 @@
 # Spotify_clone
-*Deployement Link :* https://github.com/prakashs-dev/Spotify_clone.git
+*Deployement Link :* https://prakashs-dev.github.io/Spotify_clone/
